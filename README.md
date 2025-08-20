@@ -29,7 +29,7 @@ README.md – Project documentation
 Getting Started
 
 1. Clone the repository
-
+  https://github.com/harshadabhoi07/Circular-Stopwatch-/tree/main
 
 
 2. Open the project
