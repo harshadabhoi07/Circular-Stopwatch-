@@ -36,9 +36,9 @@ https://github.com/harshadabhoi07/Circular-Stopwatch-/tree/main
 
 • Pause → Pause anytime
 
-•Reset → Reset stopwatch to zero
+• Reset → Reset stopwatch to zero
 
-•Lap → Record split times
+• Lap → Record split times
 
 
 # License
