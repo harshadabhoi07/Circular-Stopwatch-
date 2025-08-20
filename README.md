@@ -1,21 +1,19 @@
-Project Overview
+##Project Overview
 
 This project is a simple and elegant Circular Stopwatch built using HTML, CSS, and JavaScript.
 It provides a modern circular design with essential stopwatch functions for precise time tracking.
 
 
-Features
+##Features
 
-Start, Pause, and Reset functionality
+• Start, Pause, and Reset functionality
 
-Lap recording option
+• Lap recording option
 
-Clean circular UI design
-
-Fully responsive for all devices
+• Clean circular UI design
 
 
-File Structure
+##File Structure
 
 index.html – Main HTML file
 
@@ -26,34 +24,27 @@ script.js – Stopwatch logic and functionality
 README.md – Project documentation
 
 
-Getting Started
+##Getting Started
 
 1. Clone the repository
   https://github.com/harshadabhoi07/Circular-Stopwatch-/tree/main
 
 
-2. Open the project
+##Usage
 
-Navigate to the project folder
+• Start → Begin timing
 
-Open index.html in your browser
+• Pause → Pause anytime
 
+•Reset → Reset stopwatch to zero
 
-
-Usage
-
-Start → Begin timing
-
-Pause → Pause anytime
-
-Reset → Reset stopwatch to zero
-
-Lap → Record split times
+•Lap → Record split times
 
 
 License
 
 This project is under educational purpose 
+
 
 Author
 
