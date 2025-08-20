@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', monospace;
+  color: #00ffea;
+}
+
+.stopwatch-wrapper {
+  text-align: center;
+  width: 380px;
+  user-select: none;
+}
+
+.circle {
+  background: rgba(0, 255, 234, 0.15);
+  border: 4px solid #00ffea;
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+  box-shadow: 0 0 20px #00ffea;
+  position: relative;
+}
+
+#display {
+  font-size: 2.5rem;          /* ✅ reduced to fit circle */
+  letter-spacing: 4px;        /* tighter spacing */
+  color: #00ffea;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90%;
+  text-align: center;
+  user-select: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons button {
+  flex: 1 1 auto;
+  min-width: 90px;
+  max-width: 120px;
+  background: #00ffea;
+  border: none;
+  color: #00282f;
+  font-size: 1.1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:disabled {
+  background: #0a4048;
+  cursor: not-allowed;
+  color: #00484e;
+}
+
+.buttons button:not(:disabled):hover {
+  background: #00ccbb;
+  transform: scale(1.05);
+}
+
+.laps-container {
+  max-height: 180px;
+  overflow-y: auto;
+  border-top: 1px solid #00ffea;
+  padding-top: 1rem;
+  color: #00ffea;
+}
+
+.laps-container h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+#lapsList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#lapsList li {
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid #00756b;
+  font-size: 1rem;
+  user-select: none;
+}
+
+#lapsList li:nth-child(odd) {
+  background: rgba(0, 255, 234, 0.1);
+}
