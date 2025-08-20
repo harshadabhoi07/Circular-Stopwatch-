@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is a simple and elegant Circular Stopwatch built using HTML, CSS, and JavaScript.
+Skill Craft Internship Task 2:- This project is a simple and elegant Circular Stopwatch built using HTML, CSS, and JavaScript.
 It provides a modern circular design with essential stopwatch functions for precise time tracking.
 
 
